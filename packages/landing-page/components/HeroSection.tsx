@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import AnimatedText from "./AnimatedText";
 
 export const HeroSection = () => {
   const [isAnimating, setIsAnimating] = useState(false);
@@ -22,14 +23,15 @@ export const HeroSection = () => {
 
   return (
     <>
-      <div className="flex mx-8 my-4">
+      <div className="flex flex-col mx-8 my-4">
+        <AnimatedText text="Etlyn is comming soon!" />
         <motion.div
-          className="w-24 h-24 rounded-full bg-blue-500 flex items-center justify-around"
+          className="w-16 h-16 rounded-full bg-gradient-to-r from-blue-500 to-blue-700 flex items-center justify-around"
           animate={{ x, rotate }}
           transition={{ type: "spring" }}
         >
-          <div className="w-6 h-6 rounded-full bg-white my-1"></div>
-          <div className="w-6 h-6 rounded-full bg-white my-1"></div>
+          <div className="w-4 h-4 rounded-full bg-white my-[0.5px]"></div>
+          <div className="w-4 h-4 rounded-full bg-white my-[0.5px]"></div>
         </motion.div>
       </div>
     </>
