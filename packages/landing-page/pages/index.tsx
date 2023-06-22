@@ -1,20 +1,9 @@
-import {
-  AboutSection,
-  ContactSection,
-  HeroSection,
-  Layout,
-  ReviewSection,
-  ServicesSection,
-} from "../components";
+import { Text } from "../components";
 
 export default function Home() {
   return (
-    <Layout title="CLEAN TIME LLC">
-      <HeroSection />
-      <ServicesSection />
-      {/* <AboutSection />
-      <ContactSection />
-      <ReviewSection /> */}
-    </Layout>
+    <div className="h-screen flex justify-center items-center">
+      <Text variant="title">Site is under constraction!</Text>
+    </div>
   );
 }
