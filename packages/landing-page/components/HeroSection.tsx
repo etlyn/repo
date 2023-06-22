@@ -1,23 +1,36 @@
-import Head from "next/head";
-import React from "react";
-import { Button, Text } from "../components";
-import Image from "next/image";
+import React, { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 export const HeroSection = () => {
+  const [isAnimating, setIsAnimating] = useState(false);
+  const [x, setX] = useState(0);
+  const [rotate, setRotate] = useState(0);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsAnimating(!isAnimating);
+      if (x < 200) {
+        setX(x + 30);
+        setRotate(rotate + 20);
+      } else {
+        setX(-200);
+        setRotate(rotate + 0);
+      }
+      console.log(x);
+    }, 1000);
+  }, [x]);
+
   return (
     <>
-      <div className="relative object-cover md:h-[80vh] h-[60vh] bg-cover bg-center">
-        <Image src="/assets/hero.png" fill alt="1" quality={100} />
-      </div>
-
-      <div className="absolute md:-mt-[500px] md:ml-48 -mt-[250px] md:py-12 py-8 md:px-8 px-6 rounded-xl bg-white flex flex-col justify-center items-start md:gap-8 gap-6 max-w-[700px] bg-opacity-90">
-        <Text variant="title">დასუფთავების კომპანია</Text>
-        <Text variant="body">
-          ჩვენ ვმუშაობთ მხოლოდ პროფესიონალური აპარატურითა და საწმენდი
-          საშუალებებით. გაძლევთ სამუშაოს ხარისხის 100%-იან გარანტიას!
-        </Text>
-
-        <Button label="კონტაქტი" />
+      <div className="flex mx-8 my-4">
+        <motion.div
+          className="w-24 h-24 rounded-full bg-blue-500 flex items-center justify-around"
+          animate={{ x, rotate }}
+          transition={{ type: "spring" }}
+        >
+          <div className="w-6 h-6 rounded-full bg-white my-1"></div>
+          <div className="w-6 h-6 rounded-full bg-white my-1"></div>
+        </motion.div>
       </div>
     </>
   );

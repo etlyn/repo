@@ -10,8 +10,8 @@ import {
 export default function Home() {
   return (
     <Layout title="Etlyn">
-      <HeroSection />
-      <ServicesSection />
+      {/* <HeroSection /> */}
+      {/* <ServicesSection /> */}
       {/* <AboutSection />
         <ContactSection />
         <ReviewSection /> */}
