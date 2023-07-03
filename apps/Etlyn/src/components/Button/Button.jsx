@@ -11,9 +11,9 @@ export const Button = ({ style }) => {
   return (
     <div className={`button style-${style}`}>
       <div className="label">
-        {["default", "outline"].includes(style) && <>Button</>}
+        {["default", "outline"].includes(style) && <>Contact Sales</>}
 
-        {style === "link" && <>Link</>}
+        {style === "link" && <>Log In</>}
       </div>
     </div>
   );

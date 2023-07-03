@@ -2,6 +2,7 @@ import React from "react";
 import { Logoicon1 } from "../../icons/Logoicon1";
 import { Logo } from "../Logo";
 import { Menu } from "../Menu";
+import { ActionContainer } from "../ActionContainer";
 import "./style.css";
 
 export const Header = ({ device }) => {
@@ -12,14 +13,12 @@ export const Header = ({ device }) => {
           <Logo device="web" />
           <Menu
             device="web"
-            navBarNavBarItemDivClassName="menu-2"
-            navBarNavBarItemHeadermenuitemClassName="menu-instance"
-            navBarNavBarItemHeadermenuitemClassNameOverride="instance-node"
             navBarNavBarItemText="Career"
             navBarNavBarItemText1="Services"
             navBarNavBarItemText2="Blog"
             navBarNavBarItemText3="About"
           />
+          <ActionContainer />
         </div>
       )}
 

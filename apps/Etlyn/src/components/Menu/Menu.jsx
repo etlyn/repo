@@ -15,26 +15,17 @@ export const Menu = ({
   navBarNavBarItemText = "Home",
   navBarNavBarItemText1 = "Home",
   navBarNavBarItemText2 = "Home",
-  navBarNavBarItemHeadermenuitemClassName,
-  navBarNavBarItemHeadermenuitemClassNameOverride,
-  navBarNavBarItemDivClassName,
   navBarNavBarItemText3 = "Home",
 }) => {
   return (
     <div className={`menu device-${device}`}>
       {device === "web" && (
-        <>
-          <NavBar
-            navBarItemDivClassName={navBarNavBarItemDivClassName}
-            navBarItemHeadermenuitemClassName={navBarNavBarItemHeadermenuitemClassName}
-            navBarItemHeadermenuitemClassNameOverride={navBarNavBarItemHeadermenuitemClassNameOverride}
-            navBarItemText={navBarNavBarItemText1}
-            navBarItemText1={navBarNavBarItemText3}
-            navBarItemText2={navBarNavBarItemText2}
-            navBarItemText3={navBarNavBarItemText}
-          />
-          <ActionContainer />
-        </>
+        <NavBar
+          navBarItemText={navBarNavBarItemText1}
+          navBarItemText1={navBarNavBarItemText3}
+          navBarItemText2={navBarNavBarItemText2}
+          navBarItemText3={navBarNavBarItemText}
+        />
       )}
 
       {device === "mob" && <Menuicon1 className="menu-icon" />}

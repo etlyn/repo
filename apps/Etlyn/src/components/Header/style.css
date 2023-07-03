@@ -28,18 +28,6 @@
   padding: 12px 0;
 }
 
-.header .menu-instance {
-  left: -1px !important;
-}
-
-.header .instance-node {
-  left: 4px !important;
-}
-
-.header .menu-2 {
-  left: -2px !important;
-}
-
 .header .logo-wrapper {
   height: 32px;
   min-width: 157px;
