@@ -21,16 +21,15 @@
 }
 
 .action-button.state-web {
-  background-color: #000c25;
+  background-color: #0d2a7d;
   padding: 12px 24px;
   width: fit-content;
 }
 
 .action-button.state-mob {
   background-color: #0d2a7d;
-  height: 51px;
   padding: 12px 0px;
-  width: 342px;
+  width: 100%;
 }
 
 .action-button.state-web .text-wrapper {
