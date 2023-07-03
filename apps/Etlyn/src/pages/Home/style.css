@@ -4,4 +4,5 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }

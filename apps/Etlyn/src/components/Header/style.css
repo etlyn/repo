@@ -1,9 +1,8 @@
 .header {
+  display: flex;
+  width: 100%;
   align-items: center;
   background-color: #ffffff;
-  display: flex;
-  position: fixed;
-
 }
 
 .header .container-web {
