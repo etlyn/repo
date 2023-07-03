@@ -1,22 +1,7 @@
-.home-page {
+.wrapper {
   align-items: center;
   background-color: #ffffff;
   border: 1px none;
   display: flex;
   flex-direction: column;
-  position: relative;
-}
-
-.home-page .header-instance {
-  height: auto !important;
-  mix-blend-mode: normal !important;
-}
-
-.home-page .hero-section-instance {
-  align-self: stretch !important;
-  width: unset !important;
-}
-
-.home-page .design-component-instance-node {
-  border-color: unset !important;
 }

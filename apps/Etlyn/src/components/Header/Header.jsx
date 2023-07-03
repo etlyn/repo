@@ -1,20 +1,14 @@
-/*
-We're constantly improving the code you see. 
-Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
-*/
-
-import PropTypes from "prop-types";
 import React from "react";
 import { Logoicon1 } from "../../icons/Logoicon1";
 import { Logo } from "../Logo";
 import { Menu } from "../Menu";
 import "./style.css";
 
-export const Header = ({ device, className }) => {
+export const Header = ({ device }) => {
   return (
-    <div className={`header device-0-${device} ${className}`}>
+    <div className="header">
       {device === "web" && (
-        <div className="container">
+        <div className="container-web">
           <Logo device="web" />
           <Menu
             device="web"
@@ -31,7 +25,7 @@ export const Header = ({ device, className }) => {
 
       {device === "mob" && (
         <>
-          <div className="logo-wrapper">
+          <div className="container-mob">
             <Logo className="logo-instance" device="mob" icon={<Logoicon1 className="logoicon-1" />} />
           </div>
           <Menu device="mob" />
@@ -41,6 +35,3 @@ export const Header = ({ device, className }) => {
   );
 };
 
-Header.propTypes = {
-  device: PropTypes.oneOf(["web", "mob"]),
-};

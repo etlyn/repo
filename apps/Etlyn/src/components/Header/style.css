@@ -2,15 +2,28 @@
   align-items: center;
   background-color: #ffffff;
   display: flex;
-  position: relative;
+  position: fixed;
+
 }
 
-.header .container {
+.header .container-web {
   align-items: center;
   display: flex;
   flex: 1;
   justify-content: space-between;
   position: relative;
+  margin: 0 140px;
+  padding: 8px 0
+}
+
+.header .container-mob {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  position: relative;
+  margin: 0 12px;
+  padding: 12px 0;
 }
 
 .header .menu-instance {
@@ -29,6 +42,7 @@
   height: 32px;
   min-width: 157px;
   position: relative;
+  margin: 0 12px
 }
 
 .header .logo-instance {
