@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import { ActionButton } from "../ActionButton";
 import "./style.css";
+import { AnimatedText } from "../AnimatedText";
 
 export const HeroSection = ({ state, className, actionButtonStateWebClassName }) => {
   return (
@@ -18,7 +19,7 @@ export const HeroSection = ({ state, className, actionButtonStateWebClassName })
             {state === "mob" && <> with</>}
           </div>
         </div>
-        <div className="strong">expertly crafted digital solutions</div>
+        <AnimatedText containerStyle={{ display: 'flex', flex: 1, gap: 8, flexWrap: (state !== "web" ? 'wrap' : 'nowrap') }} containerClassName="strong" text="Expertly crafted digital solutions" />
       </div>
       <p className="subtitle">
         <span className="span">

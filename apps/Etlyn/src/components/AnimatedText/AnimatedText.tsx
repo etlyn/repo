@@ -3,9 +3,19 @@ import { motion, AnimatePresence } from "framer-motion";
 
 interface IAnimatedText {
   text: string;
+  textStyle?: Record<string, string | boolean | number>;
+  containerStyle?: any;
+  textClassName?: string;
+  containerClassName?: string;
 }
 
-export const AnimatedText = ({ text }: IAnimatedText) => {
+export const AnimatedText = ({
+  text,
+  textStyle,
+  containerStyle,
+  textClassName,
+  containerClassName,
+}: IAnimatedText) => {
   const words = text.split(" ");
 
   // Variants for Container of words.
@@ -42,15 +52,17 @@ export const AnimatedText = ({ text }: IAnimatedText) => {
 
   return (
     <motion.div
-      style={{ overflow: "hidden", display: "flex", fontSize: "2rem" }}
       variants={container}
       initial="hidden"
       animate="visible"
+      style={containerStyle}
+      className={containerClassName}
     >
       {words.map((word, index) => (
         <motion.span
           variants={child}
-          style={{ marginRight: "5px", fontSize: 16, color: "#0D2B7E" }}
+          style={textStyle}
+          className={textClassName}
           key={index}
         >
           {word}
