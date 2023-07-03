@@ -1,5 +1,5 @@
 {
-  "short_name": "Mtieli Tsignebi",
+  "short_name": "Etlyn LLC",
   "name": "Landing Page",
   "icons": [
     {
@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://mtielitsignebi.ge/",
+  "start_url": "https://www.etlyn.com/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
