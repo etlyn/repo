@@ -1,9 +1,9 @@
 .service-section {
   background-color: #f2f3f5;
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
-  position: relative;
 }
 
 .service-section .services {
@@ -13,10 +13,6 @@
   font-weight: 700;
   letter-spacing: 0;
   line-height: 44.8px;
-  margin-top: -1px;
-  position: relative;
-  white-space: nowrap;
-  width: fit-content;
 }
 
 .service-section .class-5 {
@@ -28,16 +24,14 @@
   width: unset !important;
 }
 
-.service-section.device-12-mob {
+.service-section.device-mob {
   align-items: flex-start;
   gap: 36px;
   padding: 48px 24px;
-  width: 390px;
 }
 
-.service-section.device-12-web {
+.service-section.device-web {
   align-items: center;
   gap: 24px;
   padding: 48px 140px;
-  width: 1280px;
 }

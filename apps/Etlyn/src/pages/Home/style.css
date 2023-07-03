@@ -1,8 +1,10 @@
-.wrapper {
+.home-page {
   align-items: center;
-  background-color: #ffffff;
   border: 1px none;
   display: flex;
+  flex: 1;
   flex-direction: column;
   width: 100%;
+  height: 100vh;
+  padding-bottom: 1000px;
 }

@@ -19,19 +19,14 @@ export const HomePage = () => {
     }
   }, []);
   return (
-    <>
-      <div className="wrapper">
-        <Header device={device} />
-        <HeroSection
-          actionButtonStateWebClassName="design-component-instance-node"
-          className="hero-section-instance"
-          state={device}
-        />
-        {/* <ServiceSection
-        device={device}
-        featureCardImage="https://generation-sessions.s3.amazonaws.com/3337c8ffaf6d89bd28f64fd7631f5157/img/image-4.png"
-        /> */}
-      </div>
-    </>
+    <div className="home-page">
+      <Header device={device} />
+      <HeroSection
+        actionButtonStateWebClassName="design-component-instance-node"
+        className="hero-section-instance"
+        state={device}
+      />
+      <ServiceSection device={device} />
+    </div>
   );
 };

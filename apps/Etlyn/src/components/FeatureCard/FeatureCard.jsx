@@ -1,14 +1,10 @@
-/*
-We're constantly improving the code you see. 
-Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
-*/
 
 import PropTypes from "prop-types";
 import React from "react";
 import { Checkicon23 } from "../../icons/Checkicon23";
 import "./style.css";
 
-export const FeatureCard = ({ device, className, image = "/img/image-3.png" }) => {
+export const FeatureCard = ({ device, className, image }) => {
   return (
     <div className={`feature-card device-2-${device} ${className}`}>
       <div className="subheading">
@@ -16,7 +12,7 @@ export const FeatureCard = ({ device, className, image = "/img/image-3.png" }) =
         <div className="development">Development</div>
       </div>
       <div className="service">
-        <img className="image" alt="Image" src={device === "web" ? image : "/img/image-2.png"} />
+        <img className="image" alt="Image" src={image} />
         <div className="description">
           <p className="at-our-design-agency">
             At our design agency, we offer professional website development services to help you establish a strong

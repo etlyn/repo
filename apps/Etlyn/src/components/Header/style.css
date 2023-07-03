@@ -3,6 +3,9 @@
   width: 100%;
   align-items: center;
   background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .header .container-web {

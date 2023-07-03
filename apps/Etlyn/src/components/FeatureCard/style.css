@@ -1,10 +1,10 @@
 .feature-card {
   align-items: flex-start;
   display: flex;
+  flex: 1;
   flex-direction: column;
   gap: 24px;
   justify-content: center;
-  position: relative;
 }
 
 .feature-card .subheading {
@@ -20,10 +20,6 @@
   font-family: "Inter", Helvetica;
   font-weight: 700;
   letter-spacing: 0;
-  margin-top: -1px;
-  position: relative;
-  white-space: nowrap;
-  width: fit-content;
 }
 
 .feature-card .development {
@@ -31,22 +27,17 @@
   font-family: "Inter", Helvetica;
   font-weight: 400;
   letter-spacing: 0;
-  margin-top: -1px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
 }
 
 .feature-card .service {
-  align-self: stretch;
   display: flex;
-  position: relative;
 }
 
 .feature-card .image {
-  align-self: stretch;
   object-fit: cover;
-  position: relative;
 }
 
 .feature-card .description {
@@ -54,16 +45,13 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  position: relative;
 }
 
 .feature-card .at-our-design-agency {
-  align-self: stretch;
   color: #000c25;
   font-family: "Inter", Helvetica;
   font-weight: 400;
   letter-spacing: 0;
-  margin-top: -1px;
   position: relative;
 }
 
@@ -127,11 +115,11 @@
 }
 
 .feature-card.device-2-mob {
-  width: 342px;
+  /* width: 342px; */
 }
 
 .feature-card.device-2-web {
-  width: 1000px;
+  /* width: 1000px; */
 }
 
 .feature-card.device-2-mob .website {
@@ -177,11 +165,11 @@
 }
 
 .feature-card.device-2-mob .description {
-  align-self: stretch;
+  /* align-self: stretch; */
 }
 
 .feature-card.device-2-web .description {
-  width: 450px;
+  /* width: 450px; */
 }
 
 .feature-card.device-2-mob .at-our-design-agency {
