@@ -1,0 +1,43 @@
+.service-section {
+  background-color: #f2f3f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.service-section .services {
+  color: #000c25;
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 44.8px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.service-section .class-5 {
+  margin-right: -24px !important;
+}
+
+.service-section .feature-card-instance {
+  align-self: stretch !important;
+  width: unset !important;
+}
+
+.service-section.device-12-mob {
+  align-items: flex-start;
+  gap: 36px;
+  padding: 48px 24px;
+  width: 390px;
+}
+
+.service-section.device-12-web {
+  align-items: center;
+  gap: 24px;
+  padding: 48px 140px;
+  width: 1280px;
+}

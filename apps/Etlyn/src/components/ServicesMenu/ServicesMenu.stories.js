@@ -1,8 +1,8 @@
-import { Header } from ".";
+import { ServicesMenu } from ".";
 
 export default {
-  title: "Components/Header",
-  component: Header,
+  title: "Components/ServicesMenu",
+  component: ServicesMenu,
 };
 
 export const Default = {

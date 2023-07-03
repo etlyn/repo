@@ -1,68 +1,55 @@
 .header {
-  display: flex;
-  flex: 1;
   align-items: center;
-  position: fixed;
   background-color: #ffffff;
+  display: flex;
+  position: relative;
+}
+
+.header .container {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header .menu-instance {
+  left: -1px !important;
+}
+
+.header .instance-node {
+  left: 4px !important;
+}
+
+.header .menu-2 {
+  left: -2px !important;
+}
+
+.header .logo-wrapper {
+  height: 32px;
+  min-width: 157px;
+  position: relative;
+}
+
+.header .logo-instance {
+  left: 12px !important;
+  top: 4px !important;
+}
+
+.header .logoicon-1 {
+  height: 24px !important;
+  min-width: 24px !important;
+  position: relative !important;
+}
+
+.header.device-0-mob {
+  justify-content: space-between;
+  padding: 12px;
+  width: 390px;
+}
+
+.header.device-0-web {
   justify-content: center;
-  padding: 8px 0;
-  width: 100%;
-  z-index: 10;
-}
-
-.header .container-start {
-  display: flex;
-  flex: 1;
-  justify-content: flex-start;
-  align-items: center;
-  margin-left: 120px;
-  padding-right: 24px;
-}
-
-.header .container-end {
-  display: flex;
-  flex: 1;
-  justify-content: flex-end;
-  align-items: center;
-  margin-right: 120px;
-  gap: 48px;
-
-}
-
-.header .menu-item-active {
-  color: #08385c;
-  font-weight: 700;
-  line-height: 22.4px;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.header .menu-item {
-  display: flex;
-  color: #08385c;
-  font-family: "Noto Serif Georgian", Helvetica;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.header .button-instance {
-  background-color: unset !important;
-  border: 1px solid !important;
-  border-color: #008ca8 !important;
-}
-
-.header .design-component-instance-node {
-  color: #008ca8 !important;
-  margin-left: -10.5px !important;
-  margin-right: -10.5px !important;
-}
-
-.header .button-2 {
-  font-size: 16px !important;
-  line-height: normal !important;
-  white-space: unset !important;
+  padding: 8px 140px;
+  width: 1280px;
 }

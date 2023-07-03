@@ -1,0 +1,220 @@
+.feature-card {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  position: relative;
+}
+
+.feature-card .subheading {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.feature-card .website {
+  color: #000c25;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.feature-card .development {
+  color: #000c25;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.feature-card .service {
+  align-self: stretch;
+  display: flex;
+  position: relative;
+}
+
+.feature-card .image {
+  align-self: stretch;
+  object-fit: cover;
+  position: relative;
+}
+
+.feature-card .description {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+}
+
+.feature-card .at-our-design-agency {
+  align-self: stretch;
+  color: #000c25;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: -1px;
+  position: relative;
+}
+
+.feature-card .list {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.feature-card .list-item {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  position: relative;
+}
+
+.feature-card .check-icon {
+  height: 20px !important;
+  min-width: 20px !important;
+  position: relative !important;
+}
+
+.feature-card .div {
+  color: #000c25;
+  flex: 1;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  margin-top: -0.88px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.feature-card .e-commerce-solutions {
+  color: #000c25;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  margin-top: -0.88px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.feature-card .content-management {
+  color: #000c25;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  margin-top: -0.88px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.feature-card.device-2-mob {
+  width: 342px;
+}
+
+.feature-card.device-2-web {
+  width: 1000px;
+}
+
+.feature-card.device-2-mob .website {
+  font-size: 24px;
+  line-height: 33.6px;
+}
+
+.feature-card.device-2-web .website {
+  font-size: 48px;
+  line-height: 67.2px;
+}
+
+.feature-card.device-2-mob .development {
+  font-size: 24px;
+  line-height: 33.6px;
+}
+
+.feature-card.device-2-web .development {
+  font-size: 48px;
+  line-height: 67.2px;
+}
+
+.feature-card.device-2-mob .service {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.feature-card.device-2-web .service {
+  align-items: center;
+  gap: 48px;
+}
+
+.feature-card.device-2-mob .image {
+  height: 220px;
+  min-width: 342px;
+}
+
+.feature-card.device-2-web .image {
+  flex: 1;
+  height: 356px;
+  min-width: 502px;
+}
+
+.feature-card.device-2-mob .description {
+  align-self: stretch;
+}
+
+.feature-card.device-2-web .description {
+  width: 450px;
+}
+
+.feature-card.device-2-mob .at-our-design-agency {
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+.feature-card.device-2-web .at-our-design-agency {
+  font-size: 18px;
+  height: 112px;
+  line-height: 25.2px;
+}
+
+.feature-card.device-2-mob .list {
+  width: 314px;
+}
+
+.feature-card.device-2-web .list {
+  align-self: stretch;
+}
+
+.feature-card.device-2-mob .e-commerce-solutions {
+  width: fit-content;
+}
+
+.feature-card.device-2-web .e-commerce-solutions {
+  flex: 1;
+}
+
+.feature-card.device-2-mob .content-management {
+  width: fit-content;
+}
+
+.feature-card.device-2-web .content-management {
+  flex: 1;
+}

@@ -1,0 +1,1 @@
+export { SizeMedium } from "./SizeMedium";

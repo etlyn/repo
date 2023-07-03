@@ -1,0 +1,20 @@
+.services-menu {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 40px;
+  display: flex;
+  position: relative;
+}
+
+.services-menu .menu-item-instance {
+  align-items: center !important;
+}
+
+.services-menu.device-1-mob {
+  overflow: hidden;
+  width: 366px;
+}
+
+.services-menu.device-1-web {
+  width: fit-content;
+}

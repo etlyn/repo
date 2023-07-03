@@ -7,22 +7,18 @@ import PropTypes from "prop-types";
 import React from "react";
 import "./style.css";
 
-export const Button = ({
-  className,
-  requestAnEstimateClassName,
-  text = "დონაცია",
-}) => {
+export const Button = ({ style }) => {
   return (
-    <div className={`button ${className}`}>
-      <div className={`request-an-estimate ${requestAnEstimateClassName}`}>
-        {text}
+    <div className={`button style-${style}`}>
+      <div className="label">
+        {["default", "outline"].includes(style) && <>Button</>}
+
+        {style === "link" && <>Link</>}
       </div>
     </div>
   );
 };
 
 Button.propTypes = {
-  text: PropTypes.string,
-  className: PropTypes.string,
-  requestAnEstimateClassName: PropTypes.string,
+  style: PropTypes.oneOf(["link", "outline", "default"]),
 };

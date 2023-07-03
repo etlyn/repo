@@ -1,0 +1,38 @@
+.action-button {
+  align-items: center;
+  border: 0.88px solid;
+  border-color: #000c25;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.action-button .text-wrapper {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 25.2px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.action-button.state-web {
+  background-color: #000c25;
+  padding: 12px 24px;
+  width: fit-content;
+}
+
+.action-button.state-mob {
+  background-color: #0d2a7d;
+  height: 51px;
+  padding: 12px 0px;
+  width: 342px;
+}
+
+.action-button.state-web .text-wrapper {
+  margin-top: -0.88px;
+}

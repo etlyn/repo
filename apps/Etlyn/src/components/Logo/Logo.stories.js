@@ -1,8 +1,8 @@
-import { Header } from ".";
+import { Logo } from ".";
 
 export default {
-  title: "Components/Header",
-  component: Header,
+  title: "Components/Logo",
+  component: Logo,
 };
 
 export const Default = {

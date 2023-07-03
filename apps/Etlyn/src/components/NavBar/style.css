@@ -1,0 +1,12 @@
+.nav-bar {
+  align-items: center;
+  display: flex;
+  gap: 48px;
+  position: relative;
+  width: fit-content;
+}
+
+.nav-bar .nav-bar-item-instance {
+  min-width: 38px !important;
+  width: unset !important;
+}

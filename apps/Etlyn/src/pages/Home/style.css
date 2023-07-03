@@ -1,10 +1,24 @@
-.Wrapper {
-  display: flex;
-  flex: 1;
-  width: 100%;
-  flex-direction: column;
+.home-page {
   align-items: center;
-  border: 1px none;
   background-color: #ffffff;
-  gap: 64px
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1523px;
+  min-width: 1280px;
+  position: relative;
+}
+
+.home-page .header-instance {
+  height: auto !important;
+  mix-blend-mode: normal !important;
+}
+
+.home-page .hero-section-instance {
+  align-self: stretch !important;
+  width: unset !important;
+}
+
+.home-page .design-component-instance-node {
+  border-color: unset !important;
 }

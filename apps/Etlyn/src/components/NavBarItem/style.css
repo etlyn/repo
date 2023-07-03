@@ -1,0 +1,56 @@
+.nav-bar-item {
+  position: relative;
+}
+
+.nav-bar-item .headermenuitem {
+  color: #000c25;
+  font-family: "Nunito", Helvetica;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.nav-bar-item.active {
+  height: 20px;
+  width: 38px;
+}
+
+.nav-bar-item.default {
+  height: 20px;
+  width: 38px;
+}
+
+.nav-bar-item.hover {
+  align-items: center;
+  background-color: #efefef;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  padding: 4px 8px;
+  width: fit-content;
+}
+
+.nav-bar-item.active .headermenuitem {
+  font-weight: 700;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: -1px;
+}
+
+.nav-bar-item.default .headermenuitem {
+  font-weight: 400;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: -1px;
+}
+
+.nav-bar-item.hover .headermenuitem {
+  font-weight: 400;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
