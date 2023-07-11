@@ -1,0 +1,131 @@
+.features-table .overlap-group {
+    left: -1px;
+    position: relative;
+  }
+  
+  .features-table .class {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+  .features-table .class-2 {
+    left: 1px !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+  .features-table .class-3 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 54px !important;
+  }
+  
+  .features-table .class-4 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 624px !important;
+  }
+  
+  .features-table .class-5 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 246px !important;
+  }
+  
+  .features-table .class-6 {
+    left: 1px !important;
+    position: absolute !important;
+    top: 109px !important;
+  }
+  
+  .features-table .class-7 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 678px !important;
+  }
+  
+  .features-table .class-8 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 300px !important;
+  }
+  
+  .features-table .instance-node-2 {
+    height: 32px !important;
+    min-width: 32px !important;
+    position: relative !important;
+  }
+  
+  .features-table .table-instance {
+    margin-left: -1px !important;
+    margin-right: -1px !important;
+    margin-top: -1px !important;
+  }
+  
+  .features-table .table-2 {
+    margin-bottom: -1px !important;
+    margin-left: -1px !important;
+    margin-right: -1px !important;
+  }
+  
+  .features-table.secure {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .features-table.is-mob-2-false.enterprise {
+    height: 355px;
+    width: 774px;
+  }
+  
+  .features-table.is-mob-2-true.data {
+    height: 653px;
+    width: 342px;
+  }
+  
+  .features-table.is-mob-2-false.data {
+    height: 335px;
+    width: 774px;
+  }
+  
+  .features-table.is-mob-2-true.enterprise {
+    height: 733px;
+    width: 342px;
+  }
+  
+  .features-table.is-mob-2-true .overlap-group {
+    width: 344px;
+  }
+  
+  .features-table.secure .overlap-group {
+    height: 356px;
+  }
+  
+  .features-table.is-mob-2-false .overlap-group {
+    width: 776px;
+  }
+  
+  .features-table.data .overlap-group {
+    top: -1px;
+  }
+  
+  .features-table.is-mob-2-false.enterprise .overlap-group {
+    height: 356px;
+  }
+  
+  .features-table.is-mob-2-true.data .overlap-group {
+    height: 654px;
+  }
+  
+  .features-table.is-mob-2-false.data .overlap-group {
+    height: 336px;
+  }
+  
+  .features-table.is-mob-2-true.enterprise .overlap-group {
+    height: 734px;
+  }
+  

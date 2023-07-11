@@ -1,0 +1,58 @@
+.features-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.features-section .title {
+  color: var(--primary);
+  font-family: var(--title-font-family);
+  font-size: var(--title-font-size);
+  font-style: var(--title-font-style);
+  font-weight: var(--title-font-weight);
+  letter-spacing: var(--title-letter-spacing);
+  line-height: var(--title-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.features-section .class-9 {
+  min-width: 342px !important;
+  position: relative !important;
+  width: unset !important;
+}
+
+.features-section .class-10 {
+  min-width: 774px !important;
+  position: relative !important;
+  width: unset !important;
+}
+
+.features-section .icon-instance-node-2 {
+  height: 32px !important;
+  min-width: 32px !important;
+  position: relative !important;
+}
+
+.features-section.is-mob-4-false {
+  gap: 42px;
+  justify-content: center;
+  padding: 48px 140px;
+  width: 1280px;
+}
+
+.features-section.is-mob-4-true {
+  gap: 32px;
+  padding: 48px 24px;
+  width: 390px;
+}
+
+.features-section.is-mob-4-false .title {
+  text-align: center;
+  width: 470px;
+}
+
+.features-section.is-mob-4-true .title {
+  align-self: stretch;
+}

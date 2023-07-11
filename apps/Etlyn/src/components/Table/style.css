@@ -1,0 +1,148 @@
+.table {
+    border: 1px solid;
+    border-color: var(--gray-300);
+    display: flex;
+    position: relative;
+  }
+  
+  .table .label {
+    color: var(--primary);
+    font-family: var(--mono-font-family);
+    font-size: var(--mono-font-size);
+    font-style: var(--mono-font-style);
+    font-weight: var(--mono-font-weight);
+    letter-spacing: var(--mono-letter-spacing);
+    line-height: var(--mono-line-height);
+    margin-top: -0.5px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .table .instance-node {
+    height: 20px !important;
+    min-width: 20px !important;
+    position: relative !important;
+  }
+  
+  .table .button {
+    align-items: center;
+    background-color: var(--text-bg100);
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 16px;
+    position: relative;
+  }
+  
+  .table .text-wrapper {
+    color: var(--primary);
+    font-family: var(--mono-font-family);
+    font-size: var(--mono-font-size);
+    font-style: var(--mono-font-style);
+    font-weight: var(--mono-font-weight);
+    letter-spacing: var(--mono-letter-spacing);
+    line-height: var(--mono-line-height);
+    margin-top: -0.88px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .table .body {
+    align-items: flex-start;
+    background-color: var(--gray-100);
+    border-color: var(--gray-300);
+    border-top-style: solid;
+    border-top-width: 0.88px;
+    display: flex;
+    padding: 20px 20px 32px;
+    position: relative;
+  }
+  
+  .table .description {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    position: relative;
+    width: 220px;
+  }
+  
+  .table .subtitle {
+    color: var(--primary);
+    font-family: var(--subtitle-font-family);
+    font-size: var(--subtitle-font-size);
+    font-style: var(--subtitle-font-style);
+    font-weight: var(--subtitle-font-weight);
+    letter-spacing: var(--subtitle-letter-spacing);
+    line-height: var(--subtitle-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .table .paragraph {
+    align-self: stretch;
+    color: var(--primary);
+    font-family: var(--body-s-font-family);
+    font-size: var(--body-s-font-size);
+    font-style: var(--body-s-font-style);
+    font-weight: var(--body-s-font-weight);
+    letter-spacing: var(--body-s-letter-spacing);
+    line-height: var(--body-s-line-height);
+    position: relative;
+  }
+  
+  .table .icon-instance-node {
+    height: 32px !important;
+    min-width: 32px !important;
+    position: relative !important;
+  }
+  
+  .table.is-open-false {
+    align-items: center;
+    background-color: var(--gray-100);
+    justify-content: space-between;
+    padding: 16px;
+  }
+  
+  .table.is-open-true {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .table.is-open-false.is-mob-true {
+    width: 344px;
+  }
+  
+  .table.is-open-true.is-mob-true {
+    width: 342px;
+  }
+  
+  .table.is-mob-false.is-open-true {
+    width: fit-content;
+  }
+  
+  .table.is-open-false.is-mob-false {
+    width: 776px;
+  }
+  
+  .table.is-mob-false .button {
+    width: 774px;
+  }
+  
+  .table.is-mob-true .button {
+    align-self: stretch;
+  }
+  
+  .table.is-mob-false .body {
+    justify-content: space-between;
+    width: 774px;
+  }
+  
+  .table.is-mob-true .body {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
