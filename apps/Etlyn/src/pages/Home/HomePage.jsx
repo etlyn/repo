@@ -14,6 +14,7 @@ import { useNavigate } from "react-router-dom";
 import "./style.css";
 
 import { WorkSection } from "../../components/WorkSection";
+import { ContactForm } from "../../components/ContactForm";
 
 export const HomePage = () => {
   const [device, setDevice] = useState('web')
@@ -53,6 +54,8 @@ export const HomePage = () => {
       <Reviews isMob={device === 'mob'} />
 
       <WorkSection isMob={device === 'mob'} />
+
+      <ContactForm iconClassName="design-component-instance-node" isMob={device === 'mob'} />
     </div>
   );
 };

@@ -1,0 +1,361 @@
+.contact-form {
+  background-color: #f2f3f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.contact-form .title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.contact-form .title-2 {
+  font-family: var(--title-font-family);
+  font-size: var(--title-font-size);
+  font-style: var(--title-font-style);
+  font-weight: var(--title-font-weight);
+  letter-spacing: var(--title-letter-spacing);
+  line-height: var(--title-line-height);
+  margin-top: -0.88px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.contact-form .paragraph {
+  color: var(--text-bg800);
+  font-family: var(--body-m-font-family);
+  font-size: var(--body-m-font-size);
+  font-style: var(--body-m-font-style);
+  font-weight: var(--body-m-font-weight);
+  letter-spacing: var(--body-m-letter-spacing);
+  line-height: var(--body-m-line-height);
+  position: relative;
+}
+
+.contact-form .div-2 {
+  position: relative;
+}
+
+.contact-form .input-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.contact-form .instance-node {
+  left: 294px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.contact-form .input-2 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 90px !important;
+}
+
+.contact-form .input-3 {
+  left: 294px !important;
+  position: absolute !important;
+  top: 90px !important;
+}
+
+.contact-form .input-4 {
+  height: 134px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 180px !important;
+  width: 564px !important;
+}
+
+.contact-form .input-5 {
+  align-self: stretch !important;
+  flex: 1 !important;
+  width: unset !important;
+}
+
+.contact-form .input-6 {
+  align-items: flex-start !important;
+  flex: 1 !important;
+  height: unset !important;
+}
+
+.contact-form .frame {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  position: absolute;
+  top: 338px;
+  width: 564px;
+}
+
+.contact-form .base-input-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: fit-content;
+}
+
+.contact-form .base-input-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+  width: 270px;
+}
+
+.contact-form .p {
+  color: transparent;
+  font-family: var(--label-font-family);
+  font-size: var(--label-font-size);
+  font-style: var(--label-font-style);
+  font-weight: var(--label-font-weight);
+  letter-spacing: var(--label-letter-spacing);
+  line-height: var(--label-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.contact-form .span {
+  color: #616263;
+  font-family: var(--label-font-family);
+  font-size: var(--label-font-size);
+  font-style: var(--label-font-style);
+  font-weight: var(--label-font-weight);
+  letter-spacing: var(--label-letter-spacing);
+  line-height: var(--label-line-height);
+}
+
+.contact-form .text-wrapper-2 {
+  color: #8a8b8c;
+  font-family: var(--label-font-family);
+  font-size: var(--label-font-size);
+  font-style: var(--label-font-style);
+  font-weight: var(--label-font-weight);
+  letter-spacing: var(--label-letter-spacing);
+  line-height: var(--label-line-height);
+}
+
+.contact-form .div-wrapper {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--gray-100);
+  border: 1px solid;
+  border-color: var(--gray-300);
+  border-radius: 3px;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.contact-form .icon-3 {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/d6ae04ed3d2e14380771e32c9e5245e9/img/chevron-1.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  min-width: 16px;
+  position: relative;
+}
+
+.contact-form .action-button-instance {
+  background-color: var(--main) !important;
+}
+
+.contact-form .action-button-2 {
+  color: var(--gray-100) !important;
+}
+
+.contact-form .input-7 {
+  align-self: stretch !important;
+  width: unset !important;
+}
+
+.contact-form .base-input-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+}
+
+.contact-form .label-2 {
+  color: var(--gray-1000);
+  font-family: var(--label-font-family);
+  font-size: var(--label-font-size);
+  font-style: var(--label-font-style);
+  font-weight: var(--label-font-weight);
+  letter-spacing: var(--label-letter-spacing);
+  line-height: var(--label-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.contact-form .input-field-2 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--gray-100);
+  border: 1px solid;
+  border-color: var(--gray-300);
+  border-radius: 3px;
+  display: flex;
+  height: 40px;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.contact-form .icon-4 {
+  height: 16px;
+  min-width: 16px;
+  position: relative;
+}
+
+.contact-form .base-input-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 158px;
+  position: relative;
+}
+
+.contact-form .input-field-3 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--gray-100);
+  border: 1px solid;
+  border-color: var(--gray-300);
+  border-radius: 3px;
+  display: flex;
+  flex: 1;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.contact-form .input-8 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.contact-form .action-button-3 {
+  align-self: stretch !important;
+  background-color: var(--main) !important;
+  width: unset !important;
+}
+
+.contact-form .by-submitting-this {
+  color: transparent;
+  font-family: var(--caption-font-family);
+  font-size: var(--caption-font-size);
+  font-style: var(--caption-font-style);
+  font-weight: var(--caption-font-weight);
+  letter-spacing: var(--caption-letter-spacing);
+  line-height: var(--caption-line-height);
+  position: relative;
+  text-align: center;
+}
+
+.contact-form .text-wrapper-3 {
+  color: #989899;
+  font-family: var(--caption-font-family);
+  font-size: var(--caption-font-size);
+  font-style: var(--caption-font-style);
+  font-weight: var(--caption-font-weight);
+  letter-spacing: var(--caption-letter-spacing);
+  line-height: var(--caption-line-height);
+}
+
+.contact-form .text-wrapper-4 {
+  color: #1a253b;
+  font-family: var(--caption-font-family);
+  font-size: var(--caption-font-size);
+  font-style: var(--caption-font-style);
+  font-weight: var(--caption-font-weight);
+  letter-spacing: var(--caption-letter-spacing);
+  line-height: var(--caption-line-height);
+}
+
+.contact-form.is-mob-false {
+  align-items: center;
+  gap: 42px;
+  padding: 48px 140px;
+  width: 1280px;
+}
+
+.contact-form.is-mob-true {
+  align-items: flex-start;
+  gap: 32px;
+  padding: 48px 24px;
+  width: 390px;
+}
+
+.contact-form.is-mob-false .title {
+  align-items: center;
+  width: fit-content;
+}
+
+.contact-form.is-mob-true .title {
+  align-items: flex-start;
+  align-self: stretch;
+  justify-content: center;
+}
+
+.contact-form.is-mob-false .title-2 {
+  color: var(--text-bg1000);
+}
+
+.contact-form.is-mob-true .title-2 {
+  color: var(--primary);
+}
+
+.contact-form.is-mob-false .paragraph {
+  text-align: center;
+  width: 430px;
+}
+
+.contact-form.is-mob-true .paragraph {
+  align-self: stretch;
+}
+
+.contact-form.is-mob-false .div-2 {
+  height: 404px;
+  min-width: 564px;
+}
+
+.contact-form.is-mob-true .div-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact-form.is-mob-false .by-submitting-this {
+  width: 564px;
+}
+
+.contact-form.is-mob-true .by-submitting-this {
+  align-self: stretch;
+}
+
+.contact-form .icon-class-name {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/d6ae04ed3d2e14380771e32c9e5245e9/img/chevron-2.svg) !important;
+}
