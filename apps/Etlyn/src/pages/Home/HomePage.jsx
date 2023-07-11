@@ -16,6 +16,13 @@ import "./style.css";
 import { WorkSection } from "../../components/WorkSection";
 import { ContactForm } from "../../components/ContactForm";
 
+import { Footer } from "../../components/Footer";
+import { Facebookicon1 } from "../../icons/Facebookicon1";
+import { Linkedinicon2 } from "../../icons/Linkedinicon2";
+import { Locationicon3 } from "../../icons/Locationicon3";
+import { Logoicon2 } from "../../icons/Logoicon2";
+import { Phoneicon2 } from "../../icons/Phoneicon2";
+
 export const HomePage = () => {
   const [device, setDevice] = useState('web')
   const navigate = useNavigate();
@@ -56,6 +63,15 @@ export const HomePage = () => {
       <WorkSection isMob={device === 'mob'} />
 
       <ContactForm iconClassName="design-component-instance-node" isMob={device === 'mob'} />
+
+      <Footer
+        isMob={device === 'mob'}
+        icon={<Phoneicon2 className="icon-instance-node" />}
+        icon1={<Linkedinicon2 className="icon-instance-node" />}
+        icon2={<Facebookicon1 className="icon-instance-node" />}
+        icon3={<Logoicon2 className="logoicon-instance" />}
+        override={<Locationicon3 className="icon-instance-node" />}
+      />
     </div>
   );
 };
