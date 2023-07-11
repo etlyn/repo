@@ -1,0 +1,96 @@
+.review-card {
+    align-items: flex-start;
+    background-color: var(--gray-100);
+    border: 1px solid;
+    border-color: var(--gray-300);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 320px;
+    padding: 24px;
+    position: relative;
+    width: 320px;
+  }
+  
+  .review-card .user {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    gap: 8px;
+    height: 68px;
+    position: relative;
+  }
+  
+  .review-card .image {
+    height: 48px;
+    min-width: 48px;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .review-card .person-details {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 2px;
+    padding: 0px 0px 2px;
+    position: relative;
+  }
+  
+  .review-card .name {
+    color: var(--primary);
+    font-family: var(--subtitle-font-family);
+    font-size: var(--subtitle-font-size);
+    font-style: var(--subtitle-font-style);
+    font-weight: var(--subtitle-font-weight);
+    letter-spacing: var(--subtitle-letter-spacing);
+    line-height: var(--subtitle-line-height);
+    margin-top: -0.88px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .review-card .occupation {
+    align-self: stretch;
+    color: var(--gray-1000);
+    font-family: var(--caption-font-family);
+    font-size: var(--caption-font-size);
+    font-style: var(--caption-font-style);
+    font-weight: var(--caption-font-weight);
+    letter-spacing: var(--caption-letter-spacing);
+    line-height: var(--caption-line-height);
+    position: relative;
+  }
+  
+  .review-card .review {
+    align-self: stretch;
+    color: #8a8b8c;
+    font-family: var(--body-s-font-family);
+    font-size: var(--body-s-font-size);
+    font-style: var(--body-s-font-style);
+    font-weight: var(--body-s-font-weight);
+    height: 142px;
+    letter-spacing: var(--body-s-letter-spacing);
+    line-height: var(--body-s-line-height);
+    position: relative;
+  }
+  
+  .review-card .action {
+    color: var(--main);
+    font-family: var(--mono-font-family);
+    font-size: var(--mono-font-size);
+    font-style: var(--mono-font-style);
+    font-weight: var(--mono-font-weight);
+    height: 22px;
+    left: 24px;
+    letter-spacing: var(--mono-letter-spacing);
+    line-height: var(--mono-line-height);
+    position: absolute;
+    top: 273px;
+    white-space: nowrap;
+  }
+  

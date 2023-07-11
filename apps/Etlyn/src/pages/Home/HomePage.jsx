@@ -8,6 +8,8 @@ import { Diagonalarrowsicon3 } from "../../icons/Diagonalarrowsicon3";
 import { Diagramicon4 } from "../../icons/Diagramicon4";
 import { Rocketicon5 } from "../../icons/Rocketicon5";
 
+import { Reviews } from "../../components/Reviews";
+
 import { useNavigate } from "react-router-dom";
 import "./style.css";
 
@@ -45,6 +47,8 @@ export const HomePage = () => {
         isMob={device === 'mob'}
         override={<Diagonalarrowsicon3 className="icon-instance-node-3" />}
       />
+
+      <Reviews isMob={device === 'mob'} />
     </div>
   );
 };
