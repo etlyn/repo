@@ -13,6 +13,8 @@ import { Reviews } from "../../components/Reviews";
 import { useNavigate } from "react-router-dom";
 import "./style.css";
 
+import { WorkSection } from "../../components/WorkSection";
+
 export const HomePage = () => {
   const [device, setDevice] = useState('web')
   const navigate = useNavigate();
@@ -49,6 +51,8 @@ export const HomePage = () => {
       />
 
       <Reviews isMob={device === 'mob'} />
+
+      <WorkSection isMob={device === 'mob'} />
     </div>
   );
 };

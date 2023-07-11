@@ -1,0 +1,280 @@
+.work {
+    background-color: var(--text-bg100);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .work .title {
+    color: var(--primary);
+    font-family: var(--title-font-family);
+    font-size: var(--title-font-size);
+    font-style: var(--title-font-style);
+    font-weight: var(--title-font-weight);
+    letter-spacing: var(--title-letter-spacing);
+    line-height: var(--title-line-height);
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .work .body {
+    position: relative;
+  }
+  
+  .work .description {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    left: 436px;
+    position: absolute;
+    top: 473px;
+    width: 350px;
+  }
+  
+  .work .instance-node {
+    height: 32px !important;
+    min-width: 32px !important;
+    position: relative !important;
+  }
+  
+  .work .subtitle {
+    color: var(--primary);
+    font-family: var(--subtitle-font-family);
+    font-size: var(--subtitle-font-size);
+    font-style: var(--subtitle-font-style);
+    font-weight: var(--subtitle-font-weight);
+    letter-spacing: var(--subtitle-letter-spacing);
+    line-height: var(--subtitle-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .work .paragraph {
+    align-self: stretch;
+    color: var(--primary);
+    font-family: var(--body-s-font-family);
+    font-size: var(--body-s-font-size);
+    font-style: var(--body-s-font-style);
+    font-weight: var(--body-s-font-weight);
+    letter-spacing: var(--body-s-letter-spacing);
+    line-height: var(--body-s-line-height);
+    position: relative;
+  }
+  
+  .work .div {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    left: 0;
+    position: absolute;
+    top: 248px;
+    width: 350px;
+  }
+  
+  .work .description-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    left: 436px;
+    position: absolute;
+    top: 2px;
+    width: 350px;
+  }
+  
+  .work .arrow-illustration {
+    height: 821px;
+    left: 370px;
+    position: absolute;
+    top: 0;
+    width: 49px;
+  }
+  
+  .work .overlap-group {
+    height: 821px;
+    position: relative;
+  }
+  
+  .work .pseudo {
+    background-color: var(--green);
+    height: 2px;
+    left: 25px;
+    position: absolute;
+    top: 62px;
+    width: 24px;
+  }
+  
+  .work .pseudo-2 {
+    background-color: var(--green);
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 300px;
+    width: 24px;
+  }
+  
+  .work .pseudo-3 {
+    background-color: var(--green);
+    height: 2px;
+    left: 25px;
+    position: absolute;
+    top: 540px;
+    width: 24px;
+  }
+  
+  .work .pseudo-4 {
+    background-color: var(--green);
+    height: 820px;
+    left: 23px;
+    position: absolute;
+    top: 0;
+    width: 3px;
+  }
+  
+  .work .pseudo-5 {
+    border-color: var(--green);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    height: 22px;
+    left: 14px;
+    position: absolute;
+    top: 794px;
+    transform: rotate(134.91deg);
+    width: 22px;
+  }
+  
+  .work .overlap-wrapper {
+    height: 824px;
+    min-width: 40px;
+    position: relative;
+  }
+  
+  .work .overlap {
+    height: 824px;
+    position: relative;
+    width: 40px;
+  }
+  
+  .work .pseudo-6 {
+    background-color: var(--green);
+    height: 2px;
+    left: 16px;
+    position: absolute;
+    top: 69px;
+    width: 24px;
+  }
+  
+  .work .pseudo-7 {
+    background-color: var(--green);
+    height: 2px;
+    left: 16px;
+    position: absolute;
+    top: 298px;
+    width: 24px;
+  }
+  
+  .work .pseudo-8 {
+    background-color: var(--green);
+    height: 2px;
+    left: 16px;
+    position: absolute;
+    top: 571px;
+    width: 24px;
+  }
+  
+  .work .group {
+    height: 824px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 31px;
+  }
+  
+  .work .overlap-group-2 {
+    height: 824px;
+    position: relative;
+  }
+  
+  .work .pseudo-9 {
+    background-color: var(--green);
+    height: 823px;
+    left: 14px;
+    position: absolute;
+    top: 0;
+    width: 3px;
+  }
+  
+  .work .pseudo-10 {
+    border-color: var(--green);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    height: 22px;
+    left: 5px;
+    position: absolute;
+    top: 797px;
+    transform: rotate(134.91deg);
+    width: 22px;
+  }
+  
+  .work .descriptions {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+  }
+  
+  .work .description-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .work.is-mob-false {
+    align-items: center;
+    gap: 42px;
+    padding: 48px 140px;
+    width: 1280px;
+  }
+  
+  .work.is-mob-true {
+    align-items: flex-start;
+    gap: 32px;
+    padding: 48px 24px;
+    width: 390px;
+  }
+  
+  .work.is-mob-false .title {
+    margin-top: -0.88px;
+  }
+  
+  .work.is-mob-true .title {
+    margin-top: -1px;
+  }
+  
+  .work.is-mob-false .body {
+    height: 821px;
+    min-width: 786px;
+  }
+  
+  .work.is-mob-true .body {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    gap: 16px;
+  }
+  
