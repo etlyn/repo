@@ -7,17 +7,11 @@ import "./style.css";
 
 interface Props {
   isMob: boolean;
-  className: any;
-  iconClassName: any;
 }
 
-export const ContactForm = ({
-  isMob,
-  className,
-  iconClassName,
-}: Props): JSX.Element => {
+export const ContactForm = ({ isMob }: Props): JSX.Element => {
   return (
-    <div className={`contact-form is-mob-${isMob} ${className}`}>
+    <div className={`contact-form is-mob-${isMob}`}>
       <div className="title">
         <div className="title-2">Grow with us</div>
         <p className="paragraph">

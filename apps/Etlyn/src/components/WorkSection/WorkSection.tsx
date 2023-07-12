@@ -6,12 +6,11 @@ import "./style.css";
 
 interface Props {
   isMob: boolean;
-  className: any;
 }
 
-export const WorkSection = ({ isMob, className }: Props): JSX.Element => {
+export const WorkSection = ({ isMob }: Props): JSX.Element => {
   return (
-    <div className={`work is-mob-${isMob} ${className}`}>
+    <div className={`work is-mob-${isMob}`}>
       <div className="title">How we work</div>
       <div className="body">
         {!isMob && (

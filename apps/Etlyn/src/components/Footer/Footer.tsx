@@ -28,7 +28,6 @@ interface Props {
 
 export const Footer = ({
   isMob,
-  className,
   icon = <Phoneicon2 className="instance-node" color="#666D7C" />,
   override = <Locationicon2 className="instance-node" color="#666D7C" />,
   icon1 = <Linkedinicon2 className="instance-node" color="#666D7C" />,
@@ -36,7 +35,7 @@ export const Footer = ({
   icon3 = <Logoicon className="logo-icon" />,
 }: Props): JSX.Element => {
   return (
-    <div className={`footer is-mob-${isMob} ${className}`}>
+    <div className={`footer is-mob-${isMob}`}>
       {!isMob && (
         <div className="div">
           <div className="div-2">
@@ -52,7 +51,9 @@ export const Footer = ({
               </div>
               <div className="item">
                 {override}
-                <p className="element-hampshire-st">1100 Hampshire St, San Francisco, CA 94110, USA</p>
+                <p className="element-hampshire-st">
+                  1100 Hampshire St, San Francisco, CA 94110, USA
+                </p>
               </div>
             </div>
           </div>
@@ -125,7 +126,9 @@ export const Footer = ({
               </div>
               <div className="div-4">
                 <Locationicon2 className="instance-node" color="#666D7C" />
-                <p className="p">1100 Hampshire St, San Francisco, CA 94110, USA</p>
+                <p className="p">
+                  1100 Hampshire St, San Francisco, CA 94110, USA
+                </p>
               </div>
             </div>
           </div>
@@ -163,7 +166,8 @@ export const Footer = ({
             <div className="text-wrapper">Subscribe</div>
             <div className="frame-2">
               <p className="join-our-weekly-blog">
-                Join our weekly blog about&nbsp;&nbsp;creating successful digital products
+                Join our weekly blog about&nbsp;&nbsp;creating successful
+                digital products
               </p>
               <div className="overlap-group-wrapper">
                 <div className="overlap-group-2">

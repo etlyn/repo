@@ -297,7 +297,7 @@
   align-items: center;
   gap: 42px;
   padding: 48px 140px;
-  width: 1280px;
+  width: 100%;
 }
 
 .contact-form.is-mob-true {

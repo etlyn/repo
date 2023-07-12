@@ -62,16 +62,9 @@ export const HomePage = () => {
 
       <WorkSection isMob={device === 'mob'} />
 
-      <ContactForm iconClassName="design-component-instance-node" isMob={device === 'mob'} />
+      <ContactForm isMob={device === 'mob'} />
 
-      <Footer
-        isMob={device === 'mob'}
-        icon={<Phoneicon2 className="icon-instance-node" />}
-        icon1={<Linkedinicon2 className="icon-instance-node" />}
-        icon2={<Facebookicon1 className="icon-instance-node" />}
-        icon3={<Logoicon2 className="logoicon-instance" />}
-        override={<Locationicon3 className="icon-instance-node" />}
-      />
+      <Footer isMob={device === 'mob'} />
     </div>
   );
 };
